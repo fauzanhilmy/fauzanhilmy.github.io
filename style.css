@@ -36,7 +36,7 @@ footer {
     color: white;
     text-align: center;
     background-color: #661515;
-    position: absolute;
+    position: fixed;
     font-size: 15px !important;
 }
 
