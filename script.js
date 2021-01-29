@@ -1,3 +1,6 @@
+var audio = new Audio('assets/bgm/Harry Potter loop.mp3');
+audio.play();
+
 let app = new function() {
     this.el = document.getElementById('tasks');
 
