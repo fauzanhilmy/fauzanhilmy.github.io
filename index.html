@@ -1,14 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="eng">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Beware of CRUDCIO!</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/Images/ico.ico">
+
+
 </head>
 
 <body>
-    <h1>HAHAHAHAHAHA</h1>
+
+    <audio src="assets/bgm/Harry Potter loop.mp3" autoplay loop>
+    <p>If you are reading this, it is because your browser does not support the audio element lololol xD </p>
+    </audio>
+    <div class="title">
+        <img src="assets/Images/CRUDCIOLOGO.png" id="logo" alt="ini logo">
+        <p>The things that make you tortured:</p>
+    </div>
+    <div class="form">
+        <form action="javascript:void(0);" method="POST" onsubmit="app.Add()">
+            <input type="text" id="add-todo" placeholder="Thing To-Do">
+            <input class="btn" type="submit" value="Add">
+        </form>
+        <p>You Have: </p>
+        <p id="counter"></p>
+
+        <table>
+            <tr class="to-do">
+                <th>
+                    <h3>To-Do:</h3>
+                </th>
+            </tr>
+            <tbody id="tasks">
+            </tbody>
+        </table>
+    </div>
+
+    <div id="edit-box" role="aria-hidden">
+        <form action="javascript:void(0);" method="POST" id="save-edit">
+            <input type="text" id="edit-todo">
+            <input class="btn" type="submit" value="Save">
+            <a onclick="CloseInput()" aria-label="Close">&#10006;</a>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+    <footer>
+        <h4> ©2021 - Fauzan Hilmy</h4>
+    </footer>
 </body>
 
 </html>

@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./assets/Images/bg1.jpg);
+    color: whitesmoke;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+
+/* header {} */
+
+.btn {
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5;
+    border-radius: 3px;
+    background-color: #661515;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+#logo {
+    height: 150px;
+    /* position: ; */
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    padding: 1px 0;
+    color: white;
+    text-align: center;
+    background-color: #661515;
+    position: absolute;
+    font-size: 15px !important;
+}
+
+.title {
+    text-align: center;
+    margin-top: 25px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    color: whitesmoke
+}
+
+.form {
+    margin: auto;
+    max-width: 400px;
+    text-align: center
+}
+
+input[type='submit'],
+button,
+[aria-label] {
+    cursor: pointer;
+}
+
+#edit-box {
+    display: none;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+td {
+    background: transparent;
+    padding-right: 10px;
+    text-align: left;
+}
+
+.to-do {
+    background: transparent !important;
+}
+
+#add-todo {
+    border-radius: 3px;
+}
